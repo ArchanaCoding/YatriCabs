@@ -1,0 +1,211 @@
+.cab-booking-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    margin-left: 52%;
+  transform: translateY(-120px);
+  }
+  
+  .trip-type {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .trip-mode {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+  }
+  
+  .trip-type button{
+    flex: 1;
+    margin: 0 16px;
+    padding: 10px 20px;
+    border: 1px solid #216900;
+    background-color: #fff;
+    color: #216900;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 140%;
+  }
+
+  .trip-mode button {
+    flex: 1;
+    padding: 10px 20px;
+    border: 1px solid #216900;
+    background-color: #fff;
+    color: #216900;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 92%;
+  }
+  
+  .trip-type button.active {
+    background-color: #216900;
+    color: #fff;
+  }
+
+  .trip-mode button.active{
+    background-color: #216900;
+    color: #fff;
+  }
+
+  .ml-10 {
+    margin-left: 138px;
+    margin-right: 36px;
+  }
+  
+  .mr-10 {
+    margin-right: 142px;
+    margin-left: 51px;
+  }
+  
+  .form-fields {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .form-field {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 50px;
+  }
+
+  .form-field img{
+    width: 24px;
+    height: 24px;
+  }
+  
+  .form-fields input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    transform: translateX(-82px);
+    margin-top: -2%;
+    border-bottom: 1px solid #000;
+  }
+
+  .form-field input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 60%;
+    border-bottom: 1px solid #000;
+  }
+
+  .l1 {
+    font-size: 10px;
+    transform: translateY(-30px);
+  }
+  
+  .explore-cabs {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #216900;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .explore-cabs:hover {
+    background-color: #216900;
+  }
+  
+
+@media only screen and (min-width: 414px) and (max-width: 991px) {
+  .cab-booking-form {
+      max-width: 500px;
+      margin-left: 20%;
+      transform: translateY(-90px);
+  }
+  .trip-type, .trip-mode {
+      margin-bottom: 20px;
+  }
+  .trip-type button, .trip-mode button {
+      padding: 10px 20px;
+  }
+  .form-fields input {
+      padding: 10px;
+  }
+  .explore-cabs {
+      padding: 15px;
+      font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 413px) {
+  .cab-booking-form {
+    max-width: 348px;
+    margin-left: 3%;
+    transform: translateY(-195px);
+  }
+  .trip-type {
+      margin-bottom: 15px;
+  }
+
+  .trip-mode {
+    margin-bottom: 15px;
+  }
+  .trip-type button {
+      padding: 8px 15px;
+      margin: 0 8px;
+  }
+
+  .trip-mode button {
+    padding: 8px 15px;
+    margin: 0 40px;
+  }
+  .form-fields input {
+      padding: 8px;
+  }
+  .explore-cabs {
+      padding: 12px;
+      font-size: 12px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

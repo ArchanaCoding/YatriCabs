@@ -1,0 +1,211 @@
+.containe {
+    max-width: 1332px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.banner2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.banner2-content {
+    max-width: 60%;
+}
+
+.banner2-content h1 {
+    font-size: 48px;
+    margin: 0 0 20px 0;
+}
+
+.highlight {
+    color: #4CAF50;
+}
+
+.feature {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -33px;
+}
+
+.feature h3 {
+    padding-left: 2%;
+  transform: translateY(-21px);
+}
+
+.feature p {
+    padding-left: 9%;
+  transform: translateY(-50px);
+}
+
+.feature img.icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.banner2-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.pricing table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.pricing th, .pricing td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.pricing th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pricing td {
+    background-color: #f2f2f2;
+}
+
+.pricing tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* why choose section */
+
+.choose {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.chooseService {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.chooseServ {
+    background: #fff;
+    padding: 20px;
+    flex: 1 1 30%;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.chooseServ img.icon {
+    margin-left: 140px;
+}
+
+.chooseServ h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #4CAF50;
+    padding-left: 20%;
+}
+
+.chooseServ p {
+    font-size: 14px;
+    color: #555;
+}
+
+.journey {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.journey h2 {
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+
+.journey h2 span {
+    color: #77aaff;
+}
+
+.journey p {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.journey img {
+    max-width: 30%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 413px) {
+    .containe {
+      max-width: 400px;
+    }
+    .banner2-content {
+      max-width: 20%;
+    }
+    .banner2-content h1 {
+      font-size: 33px;
+      padding-left: 87%;
+      display: block ruby;
+      margin-left: -392%;
+    }
+    .feature {
+      min-width: 60px;
+      margin-top: 195px;
+    }
+    .features {
+        
+        display: flex;
+        margin-left: -423%;
+        flex-direction: column;
+        margin-bottom: -858%;
+    }
+    .banner2-image img {
+        transform: translateY(-520px);
+  }
+
+  .f2 {
+    transform: translatey(-180px);
+  }
+  .f3 {
+    transform: translatey(-360px);
+  }
+  .f4 {
+    transform: translatey(-540px);
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 413px) {
+    .chooseService {
+        flex-direction: column;
+    }
+
+    .chooseServ {
+        flex: 1 1 100%;
+    }
+}

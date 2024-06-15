@@ -1,0 +1,34 @@
+.end{
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 1293px;;
+    margin: 0 auto;
+}
+
+.end ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.end li {
+    padding-bottom: 30px;
+}
+
+.ta {
+    background-color: #216900;
+    color: white;
+    padding: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 15px;
+  }
+  .ta p{
+    margin: 0 20px;
+  }

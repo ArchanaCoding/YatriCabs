@@ -1,0 +1,193 @@
+ .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 25px 25px;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top:0;
+    transform: unset;
+    z-index: 1000;
+}
+
+.logo img{
+    width: 170px;
+    height: 50px;
+}
+
+.contact-info {
+    top: 27px;
+    font-size: 16px; 
+    color: #333; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    margin-right: 220px;
+}
+
+ .contact-section {
+    padding: 9px 12px;
+    color: white;
+    align-items: center;
+    position: none;
+  } 
+  
+  .left-section {
+    background-color: #216900;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  
+  .middle-section {
+    background-color: #ffffff;
+    color: #216900;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 30px;
+    border-top-right-radius: 6px;
+  }
+  
+  .middle-section .clock-icon {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-30%);
+  }
+  
+  .right-section {
+    background-color: #216900;
+    border-radius: 35px 85px 0px 5px;
+    border-bottom-right-radius: 80px;
+  }
+
+.download-app{
+    position: absolute;
+    top: 30px;
+    right: 100px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.download-app img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+  }
+
+  .none {
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .user {
+    position: absolute;
+    top: 30px; 
+    right: 33px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .user img{
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+  }
+
+  .user span {
+    font-size: 14px;
+  }
+
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 40px; 
+    right: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown li {
+    margin-bottom: 10px;
+  }
+  
+  .dropdown a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .dropdown a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .user:hover .dropdown {
+    display: block;
+  } 
+
+
+
+  /* Media Queries */
+
+
+
+
+
+/* Extra small screens */
+@media only screen and (max-width: 767px) {
+  .header {
+      padding: 20px 1px;
+  }
+  .logo img {
+      width: 80px;
+      height: 20px;
+  }
+  .contact-info {
+      font-size: 12px;
+  }
+  .download-app{
+    top: 12%;
+    right: 14%;
+  }
+  .user {
+    top: 12%;
+      right: 4%;
+  
+  }
+}
+
+@media only screen and (max-width: 413px) {
+  .header {
+    padding: 20px 1px;
+}
+  .logo img {
+    width: 80px;
+    height: 20px;
+}
+.contact-info {
+  font-size: 10px;
+}
+.download-app{
+  top: 12%;
+  right: 14%;
+}
+.user {
+  top: 12%;
+    right: 4%; 
+
+}
+} 

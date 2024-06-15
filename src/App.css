@@ -1,0 +1,40 @@
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.banner {
+  background-image: url('../public/img/india.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #f5f5f5;
+  padding-bottom: 297px;
+  margin-bottom: -321px;
+  background-blend-mode: overlay;
+  background-color: rgba(7, 7, 7, 0.5);
+}
+
+.banner span {
+  color: #50ff00;
+}
+
+.banner h1 {
+  font-size: 62px;
+  margin: 0;
+  margin-right: 724px; 
+  transform: translateY(100px);
+}
+
+
+@media only screen and (max-width: 413px) {
+  .banner {
+    padding-bottom: 500px;
+    margin-bottom: -300px;
+    padding-top: 16px;
+  }
+  .banner h1 {
+    font-size: 36px;
+    margin-right: 300px;
+    display: contents;
+  }
+}
